@@ -1,0 +1,13 @@
+{
+  "name": "vuln-demo",
+  "version": "1.0.0",
+  "description": "Demo project for SAST/SCA/DAST testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.10"
+  }
+}
