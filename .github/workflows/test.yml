@@ -1,4 +1,4 @@
-name: DevSecOps SAST + SCA + DAST
+name: "DevSecOps: SAST + SCA + DAST"
 
 on:
   push:
@@ -15,7 +15,7 @@ permissions:
 env:
   NODE_VERSION: 18
   APP_PORT: 3000
-  DEP_CHECK_VERSION: 8.6.2   # Updated latest release
+  DEP_CHECK_VERSION: 12.1.0
   APP_START_CMD: "npm start"
 
 jobs:
@@ -42,7 +42,7 @@ jobs:
           category: "sast"
 
   # ----------------------------
-  # SCA - OWASP Dependency-Check CLI
+  # SCA - OWASP Dependency-Check
   # ----------------------------
   sca:
     name: SCA - Dependency-Check
