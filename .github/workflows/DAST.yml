@@ -1,4 +1,4 @@
-name: OWASP ZAP DAST Full Scan
+name: "OWASP ZAP DAST Full Scan"
 
 on:
   workflow_dispatch:  # Manual trigger only
